@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/dictionary-app/', // 👈 Обов'язково вкажіть точну назву вашого репозиторію
+  base: '/dictionary/', // 👈 Обов'язково вкажіть точну назву вашого репозиторію
 });
