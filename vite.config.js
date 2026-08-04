@@ -2,11 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
   ],
-  base: '/dictionary/', // 👈 Обов'язково вкажіть точну назву вашого репозиторію
+  base: '/Dictionary/', // 👈 Точна назва вашого репозиторію
 });
